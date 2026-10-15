@@ -1,0 +1,36 @@
+Primordia modpack 0.1.0
+=======================
+
+Primordia (mods/primordia-0.1.0.jar)
+  Copyright (c) 2026 YGLEDC. MIT License.
+
+This modpack is based on Rapid Optimization 21.1Fa.2.4.0 by SnowFox114
+  https://modrinth.com/modpack/rapid_optimization
+  Licensed under the MIT License. Its copyright notice and permission notice are kept below, as that license asks.
+
+Every other mod, resource pack and shaderpack is downloaded by your launcher from Modrinth, from its author's own
+page, and stays under its author's license; this pack does not redistribute them.
+
+Bundled third-party files:
+  RuOK (mods/[钌] ruok-fabric_1.21.1_Pre-Release_5-1.7.4.jar), by AweiMC and MCTeamPotato, GPL-3.0.
+    Source: https://github.com/MCTeamPotato/RuOK
+
+The Simplified Chinese translations of other mods are downloaded at launch by I18n Update Mod from the CFPA team's
+Minecraft-Mod-Language-Package (https://github.com/CFPAOrg/Minecraft-Mod-Language-Package), CC BY-NC-SA 4.0.
+
+
+MIT License (Rapid Optimization, by SnowFox114; Primordia, by YGLEDC)
+---------------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

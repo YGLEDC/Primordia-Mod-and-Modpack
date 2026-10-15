@@ -1,0 +1,5 @@
+# Release files go on GitHub Releases, not in the history.
+*.jar
+*.mrpack
+RELEASE_NOTES-*.md
+build_mrpack.py
