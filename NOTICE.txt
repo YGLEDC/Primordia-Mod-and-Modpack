@@ -1,7 +1,7 @@
-Primordia modpack 0.1.0
+Primordia modpack 0.2.0
 =======================
 
-Primordia (mods/primordia-0.1.0.jar)
+Primordia (mods/primordia-0.2.0.jar)
   Copyright (c) 2026 YGLEDC. MIT License.
 
 This modpack is based on Rapid Optimization 21.1Fa.2.4.0 by SnowFox114

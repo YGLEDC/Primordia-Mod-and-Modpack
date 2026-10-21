@@ -5,9 +5,11 @@
 A systemic elemental fantasy mod for Minecraft **1.21.1** (Fabric), and a ready-to-play modpack built around it.
 
 Awaken a Bloodline at an Altar, learn Skills of **Fire, Water, Wind, Earth and Space** from Skill Scrolls, shape them
-with inflections and Disciplines, and carry them through four Custodians to the Reliquary at the End.
+with inflections and Disciplines, and carry them through four Custodians to the Reliquary at the End, and past it into
+the Interstice between the worlds.
 
-> Primordia is in pre-release (0.1.0). Bug reports and feedback are welcome in [Issues](../../issues).
+> Primordia is in beta (0.2.0). Bug reports and feedback are welcome in [Issues](../../issues). The mod alone is also
+> on [Modrinth](https://modrinth.com/mod/primordia-ygledc).
 
 ## Download
 
@@ -15,8 +17,16 @@ Get the files from the [latest release](../../releases/latest):
 
 | File | What it is |
 |---|---|
-| `Primordia-0.1.0.mrpack` | The modpack: Primordia plus about seventy performance, world and quality-of-life mods, already configured |
-| `primordia-0.1.0.jar` | The mod alone, for your own instance or a server |
+| `Primordia-0.2.0.mrpack` | The modpack: Primordia plus about seventy performance, world and quality-of-life mods, already configured |
+| `primordia-0.2.0.jar` | The mod alone, for your own instance or a server |
+
+## Updating from 0.1.0
+
+**Copy your worlds first:** once 0.2.0 has opened a world, 0.1.0 no longer opens it, and no backup is made for you.
+
+The 0.2.0 modpack changes nothing but Primordia. In an instance made from the 0.1.0 pack, replace
+`mods/primordia-0.1.0.jar` with `primordia-0.2.0.jar` (in Prism Launcher, under **Edit → Mods**). Or import the new
+pack as a new instance and copy your worlds into its `saves` folder.
 
 ## Install the modpack
 
@@ -24,13 +34,13 @@ The `.mrpack` holds Primordia and the pack's settings; your launcher downloads e
 Modrinth page.
 
 **Prism Launcher**
-1. Click **Add Instance**, then **Import**, and choose `Primordia-0.1.0.mrpack`.
+1. Click **Add Instance**, then **Import**, and choose `Primordia-0.2.0.mrpack`.
 2. Click **OK** and wait for the downloads to finish.
 3. Optional: under **Edit → Settings → Java**, give the game more memory (see below).
 4. Launch.
 
 **Modrinth App**
-1. Click **+** (Create an instance), then **From file**, and choose `Primordia-0.1.0.mrpack`.
+1. Click **+** (Create an instance), then **From file**, and choose `Primordia-0.2.0.mrpack`.
 2. Wait for the install to finish, then press **Play**.
 
 Other launchers that import Modrinth packs (`.mrpack`) work the same way.
@@ -53,7 +63,7 @@ Chinese translations for the other mods.
 | [Player Animation Library](https://modrinth.com/mod/playeranimator) | 1.1.6 or newer, before 2 |
 | Java | 21 |
 
-Put `primordia-0.1.0.jar` and its requirements in your `mods` folder. The mod is needed on both the server and every
+Put `primordia-0.2.0.jar` and its requirements in your `mods` folder. The mod is needed on both the server and every
 client. Optional: EMI, JEI or REI show Primordia's recipes and how each item is found; Better Combat gives the casting
 weapons their swings.
 
@@ -71,11 +81,15 @@ weapons their swings.
   Essence swords and their Weapon Arts; the Four Essence Staff and the Lost Sword.
 - **Bosses.** Bailan on her island, the Masked King in the Sky Archive, Cinderhorn in the Scorched Field and Kunyu in
   the Buried Archive. Their keys open the Ossuary beside an End city, where the Reliquary waits.
+- **The Interstice.** A void between the worlds, opened from the Ossuary's Reliquary Altar with a Void Essence:
+  islands of Rift Matter, bridges of Unknown Matter that grow back and shoot out at players, and the Anomaly, which
+  hunts by sound. The Watcher, a black hole asleep in one of the realm's cubes, keeps the Time Essence Star, which
+  claims Time, a sixth Essence. The Order portal, woken by six Essence Stars, leads to a realm still to come.
 - **The Encyclopedia**, an in-game book in English and Simplified Chinese, given at the Awakening.
 
 ## Getting started
 
-1. Find **Primordial Crystal Ore** between Y -64 and Y -54 and mine it with an iron pickaxe or better. Smelt the raw
+1. Find **Primordial Crystal Ore** between Y -60 and Y -30 and mine it with an iron pickaxe or better. Smelt the raw
    crystal in a Blast Furnace.
 2. Craft a **Deconstruction Table** (two Copper Ingots, a Gold Ingot, four Deepslate Tiles) and make an **Artificial
    Primordium** on it from five crystals in a cross.
@@ -114,9 +128,10 @@ The full notices are in [NOTICE.txt](NOTICE.txt).
 
 Primordia 是一个面向 Minecraft **1.21.1**（Fabric）的系统化元素奇幻模组，并附带一个开箱即玩的整合包。
 
-在祭坛觉醒血脉，研读技能卷轴，习得**火、水、风、土、空间**五大原质的技能，以词缀与专精塑造它们，一路挑战四位守护者，直至终末之地的圣骸。
+在祭坛觉醒血脉，研读技能卷轴，习得**火、水、风、土、空间**五大原质的技能，以词缀与专精塑造它们，一路挑战四位守护者，直至终末之地的圣骸，再越过它，进入诸界之间的界隙。
 
-> Primordia 目前为预发布版本（0.1.0）。欢迎在 [Issues](../../issues) 反馈问题与建议。
+> Primordia 目前为测试版（Beta，0.2.0）。欢迎在 [Issues](../../issues) 反馈问题与建议。单独的模组本体也发布在
+> [Modrinth](https://modrinth.com/mod/primordia-ygledc)。
 
 ## 下载
 
@@ -124,21 +139,27 @@ Primordia 是一个面向 Minecraft **1.21.1**（Fabric）的系统化元素奇�
 
 | 文件 | 说明 |
 |---|---|
-| `Primordia-0.1.0.mrpack` | 整合包：Primordia 加上约七十个优化、世界生成与便利性模组，已全部配置好 |
-| `primordia-0.1.0.jar` | 单独的模组本体，用于自己的实例或服务器 |
+| `Primordia-0.2.0.mrpack` | 整合包：Primordia 加上约七十个优化、世界生成与便利性模组，已全部配置好 |
+| `primordia-0.2.0.jar` | 单独的模组本体，用于自己的实例或服务器 |
+
+## 从 0.1.0 更新
+
+**请先备份存档：**世界一旦用 0.2.0 打开过，0.1.0 就再也无法打开它，而且不会自动为你备份。
+
+0.2.0 整合包只更新了 Primordia 本身。在用 0.1.0 整合包创建的实例中，把 `mods/primordia-0.1.0.jar` 换成 `primordia-0.2.0.jar` 即可（Prism Launcher 中位于**编辑 → 模组**）。也可以把新整合包导入为新实例，再把存档复制到它的 `saves` 文件夹。
 
 ## 安装整合包
 
 `.mrpack` 文件包含 Primordia 和整合包的配置；其余模组由启动器从各自的 Modrinth 官方页面下载。
 
 **Prism Launcher**
-1. 点击**添加实例**，选择**导入**，选中 `Primordia-0.1.0.mrpack`。
+1. 点击**添加实例**，选择**导入**，选中 `Primordia-0.2.0.mrpack`。
 2. 点击**确定**，等待下载完成。
 3. 可选：在**编辑 → 设置 → Java** 中为游戏分配更多内存（见下文）。
 4. 启动游戏。
 
 **Modrinth App**
-1. 点击 **+**（创建实例），选择**从文件导入**，选中 `Primordia-0.1.0.mrpack`。
+1. 点击 **+**（创建实例），选择**从文件导入**，选中 `Primordia-0.2.0.mrpack`。
 2. 等待安装完成后点击**开始游戏**。
 
 其他支持导入 Modrinth 整合包（`.mrpack`）的启动器操作相同。
@@ -158,7 +179,7 @@ Primordia 是一个面向 Minecraft **1.21.1**（Fabric）的系统化元素奇�
 | [Player Animation Library](https://modrinth.com/mod/playeranimator) | 1.1.6 或更高，低于 2 |
 | Java | 21 |
 
-把 `primordia-0.1.0.jar` 及其前置放入 `mods` 文件夹。服务器和每个客户端都需要安装本模组。可选：EMI、JEI 或 REI 可显示 Primordia 的配方与物品来源；Better Combat 为法器提供挥砍动作。
+把 `primordia-0.2.0.jar` 及其前置放入 `mods` 文件夹。服务器和每个客户端都需要安装本模组。可选：EMI、JEI 或 REI 可显示 Primordia 的配方与物品来源；Better Combat 为法器提供挥砍动作。
 
 ## Primordia 的内容
 
@@ -168,11 +189,12 @@ Primordia 是一个面向 Minecraft **1.21.1**（Fabric）的系统化元素奇�
 - **反应。**元素会留下附着；不同元素相遇，触发蒸汽、野火、熔甲、泥沼、迷雾或风沙。
 - **法器。**十二件元素法器与共鸣法器，在通脉台调谐与连接；四柄原质之剑及其器技；四原杖与遗落之剑。
 - **首领。**海岛上的白澜、高空书库中的覆面王、焦土中的烬角、深土典藏中的坤舆。它们的钥匙开启末地城旁的藏骸堂，圣骸在那里等候。
+- **界隙。**诸界之间的虚空，用虚空原质在藏骸堂的圣骸祭坛上开启：隙质构成的岛屿，会再生、还会朝玩家疾射而出的未知质之桥，以及循声猎杀的失序体。守望者是沉睡在界隙一座巨大立方体中的黑洞，守着时间原质星，以它可获得第六种原质：时间。原序传送门由六颗原质星唤醒，通往尚未到来的国度。
 - **Primordia 百科全书**：觉醒时获得的游戏内图书，提供英文与简体中文。
 
 ## 新手入门
 
-1. 在 Y -64 到 Y -54 之间寻找**原晶矿**，用铁镐或更好的镐开采，在高炉中冶炼粗原晶。
+1. 在 Y -60 到 Y -30 之间寻找**原晶矿**，用铁镐或更好的镐开采，在高炉中冶炼粗原晶。
 2. 合成**解构台**（两个铜锭、一个金锭、四个深板岩瓦），在上面用十字排列的五颗原晶制作**人造原基**。
 3. 把解构台放在一块九乘九地面的中央，在四个方向距离四格处各砌一面三格宽、七格高、由同一种石头组成的石墙。对每面石墙使用人造原基，把它雕成碑。
 4. 站在台面上，把人造原基扔到解构台上。之后的内容，百科全书会为你讲解。
