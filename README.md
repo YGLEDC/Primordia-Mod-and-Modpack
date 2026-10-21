@@ -8,12 +8,11 @@ Awaken a Bloodline at an Altar, learn Skills of **Fire, Water, Wind, Earth and S
 with inflections and Disciplines, and carry them through four Custodians to the Reliquary at the End, and past it into
 the Interstice between the worlds.
 
-> Primordia is in beta (0.2.0). Bug reports and feedback are welcome in [Issues](../../issues). The mod alone is also
-> on [Modrinth](https://modrinth.com/mod/primordia-ygledc).
+> Primordia is in beta (0.2.0). Bug reports and feedback are welcome in [Issues](../../issues).
 
 ## Download
 
-Get the files from the [latest release](../../releases/latest):
+Get the files from the newest release on the [Releases page](../../releases):
 
 | File | What it is |
 |---|---|
@@ -130,12 +129,11 @@ Primordia 是一个面向 Minecraft **1.21.1**（Fabric）的系统化元素奇�
 
 在祭坛觉醒血脉，研读技能卷轴，习得**火、水、风、土、空间**五大原质的技能，以词缀与专精塑造它们，一路挑战四位守护者，直至终末之地的圣骸，再越过它，进入诸界之间的界隙。
 
-> Primordia 目前为测试版（Beta，0.2.0）。欢迎在 [Issues](../../issues) 反馈问题与建议。单独的模组本体也发布在
-> [Modrinth](https://modrinth.com/mod/primordia-ygledc)。
+> Primordia 目前为测试版（Beta，0.2.0）。欢迎在 [Issues](../../issues) 反馈问题与建议。
 
 ## 下载
 
-在[最新发布页](../../releases/latest)下载：
+在[发布页](../../releases)下载最新版本：
 
 | 文件 | 说明 |
 |---|---|
